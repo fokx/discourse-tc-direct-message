@@ -1,0 +1,18 @@
+DM_username:
+  default: 'system'
+DM_btn_icon:
+  default: 'envelope'
+DM_btn_text:
+  default: 'Chat with'
+DM_fixed_btn_text:
+  default: ''
+  description:
+    en: "Fill it if you want to fix the text of chat button instead of using DM_btn_text + username"
+DM_btn_opacity:
+  default: 0.5
+Svg_icons:
+  type: "list"
+  list_type: "compact"
+  default: "fa-envelope|fa-comments|fa-folder-open"
+  description:
+    en: "Include FontAwesome icon classes for each icon used in the lists above."

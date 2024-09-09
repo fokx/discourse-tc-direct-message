@@ -1,0 +1,22 @@
+.mobile-topic-floating-reply {
+  background-color: $tertiary;
+  color: $secondary;
+
+  .svg-icon, .svg-icon-title {
+    height: 2.15em;
+  }
+}
+
+#DM-btn {
+  right: 2.5rem;
+  bottom: 7rem;
+  opacity: $DM_btn_opacity;
+}
+
+.topic-list .topic-item-stats {
+  z-index: 0;
+}
+
+.topic-list .main-link {
+  z-index: 0;
+}
