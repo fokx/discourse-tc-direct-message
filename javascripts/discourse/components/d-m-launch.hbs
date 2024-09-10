@@ -1,9 +1,12 @@
-<DButton
-    {{did-insert this.getBotUser}}
-        @id="DM-btn"
-        @class="btn-primary DM-btn"
-        @action={{action this.startChatting}}
->
-    {{d-icon this.DMLaunchIcon}}
-    <label class="d-button-label">{{this.DM_btn_text}}</label>
-</DButton>
+{{#if this.showDMButton}}
+    <DButton
+        {{did-insert this.getBotUser}}
+            @id="DM-btn"
+            @class="btn-primary DM-btn"
+            @action={{action this.startChatting}}
+    >
+        {{d-icon this.DMLaunchIcon}}
+        <label class="d-button-label">{{this.DM_btn_text}}</label>
+    </DButton>
+{{/if}}
+
